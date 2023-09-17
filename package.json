@@ -1,0 +1,19 @@
+{
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env DEBUG=vite-ssg:* vite",
+    "build": "cross-env DEBUG=vite-ssg:* vite-ssg build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "vite-ssg": "^0.23.2",
+    "vue": "^3.3.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.3.4",
+    "cross-env": "^7.0.3",
+    "typescript": "^5.2.2",
+    "vite": "^4.4.9"
+  }
+}
